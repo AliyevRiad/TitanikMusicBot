@@ -12,56 +12,6 @@
     "pyrogram"
     ],
     "env": {
-      "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "19485442",
-        "required": true
-      },
-      "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "a03fcb372b3ec4e406b5d52f84b02e53",
-        "required": true
-      },
-      "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
-        "value": "5366398706:AAEXjFLIlj1Z1fMhPIZibn03f5TQs8bFhs0",
-        "required": true
-      },
-      "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "mongodb+srv://rahidindi:rahidindi_1234@cluster0.ifslufs.mongodb.net/?retryWrites=true&w=majority",
-        "required": true
-      },
-      "OWNER_ID": {
-        "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "571698989",
-        "required": true
-      },
-      "STRING_SESSION": {
-        "description": "A Pyrogram v2 String Session .",
-        "value": "AgEpUwIAWzaoNdEXCg1LtvyLCI4GMIrFK31ctPG-cGK1efSHgmf-Zu6RPkQW0KXPLOCA_Y_6-gOOuld87Ljdr-4z9oeJkn4F1kqjZUAZFoPQpJN0sK1Vdx1Ai1GXytaQ66s8g074aZXQ5wZNJHNyqSx5s_jz3WMVMfOEFzSN6HE2ks8-kDui367hRgfpPDfWPVpDi7obcbE9-lTtr0Z0boMPf2aztjqMoH1_JdlgPmWboGsgG5e_KOEtYFfd9xxLsCdZ3i_r4U-CNXqclajGgeyBa2Lnop-eELYftKzbZLXd0vKe5DrdrGC__GY0NV8sDn1g1mW-mwtE0thxPE46fyQJShB9XgAAAAFlel8rAA",
-        "required": true
-      },
-      "QUEUE_LIMIT": {
-        "description": "Fill Queue Limit . Example - 15",
-        "value": "20",
-        "required": false
-      },
-      "HEROKU_API_KEY": {
-        "description": "Your Heroku account's API key",
-        "value": "HRKU-a54146ee-5800-4c6d-93c2-ba71f67f2f52",
-        "required": false
-      },
-      "HEROKU_APP_NAME": {
-        "description": "Your heroku app name",
-        "value": "rahidmusicbot",
-        "required": false
-      },
-      "LOG_GROUP_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Do not ever try to put channel ID here.",
-        "value": "-1001864613336",
-        "required": true
-      }
     },
     "buildpacks": [
           {
