@@ -40,7 +40,7 @@ async def init():
     await userbot.start()
     await Inflex.start()
     try:
-        await Inflex.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await Inflex.stream_call("https://telegra.ph/file/e91e886dd50ffdae88c99.jpg")
     except NoActiveGroupCall:
         LOGGER("InflexMusic").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
