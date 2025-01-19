@@ -20,10 +20,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ForzaMusicBot:ForzaMusicBot
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 180))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002455247978"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002347460455"))
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7426096650"))
+OWNER_ID = int(getenv("OWNER_ID", "6305761724"))
 
 # Fill Queue Limit . Example - 15
 QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", "20"))
@@ -36,8 +36,8 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/botlarlnk")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Nilaysupp")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SohbetFc")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ForzaBoots/")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", None))
@@ -59,7 +59,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 104857600))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = getenv("STRING_SESSION", "AgFWq0QAlMrZtTzoL_HsjSyFwW_dBMwf2_DCDx6nPzux3GzCHzDhsLMbjz1tsIzrHBnWOiETpXpDS9_R3WRJNreiE9tO65u1gIdTB2EfsVAaGuoohgAbQlHKOErcEC4pKFlzMYMU1bzpREO-6VL37x_zf8APEcD84-XWoE6QIIsNzZImsIv49mfw6fKscAIkKiTm-F-FJ-MI-VpSrtAsMknbBQeaLPHygTIFTJw2cHsKR4b0QntIAZZJgNMV3P9a6PmKMoG9eE8x8uqTtUUs3sAB3pLCCMKNWo6E7xwycGGzf5lGNIz-oJdbcbLfRjoShWo5j04B1GM3jgbDxIeLoOQ8lEl3gQAAAAGurfq1AA")
+STRING1 = getenv("STRING_SESSION", "AgGDg0MAREJ6PKoAuQbwovnMpBtCEcmXObeId2u5Gbj9t0A_-Tirng74cFdQEf_2mNpIehDvN3Ma6gHtIl1x01hbf64HzYBJGyWnFwGrbNCl0yBmrXIVmpEWVI7RpNWglUMpWMb7i4oxcceTT68ZXyPTByuUYN0pcOugFPXMJHzhbW-ClLSAg27_j_QIiZsBcDnnFV8PI1T4gNpLrRSvyywKC4iy2aM3Xwbi5rHv-KGoEuqmqii_432N9oS1iyGVvAOwMSiGuFrYA_P7t2DBrlq62KNgml1fbrFvbm3orLdgG8eJ7VQJPBZu_gXHKi3YWlvJeuhCJ029lIXnXKpU9Y6y8uvaawAAAAGvt_GWAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
