@@ -8,8 +8,8 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "19485442"))
-API_HASH = getenv("API_HASH", "a03fcb372b3ec4e406b5d52f84b02e53")
+API_ID = int(getenv("API_ID", "22203055"))
+API_HASH = getenv("API_HASH", "b8a6bbb8fe3bc794ce85984c7731aca5")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", "7186753157:AAGacxd_mlmehLrfDHotzV2q-Kgk3LIaQyI")
@@ -20,7 +20,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ForzaMusicBot:ForzaMusicBot
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 180))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002140635806"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002359618333"))
 
 # Get this value from @MissRose_Bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", "6305761724"))
