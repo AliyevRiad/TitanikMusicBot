@@ -16,7 +16,6 @@ BOT_TOKEN = getenv("BOT_TOKEN", "8059284115:AAGU1st9p5BUXxi-DPIEta5sn3sKvATGNtE"
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ForzaMusicBot:ForzaMusicBot@forzamusicbot.z9u2c.mongodb.net/?retryWrites=true&w=majority")
-
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 180))
 
 # Chat id of a group for logging bot's activities
