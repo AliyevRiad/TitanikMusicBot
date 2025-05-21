@@ -15,7 +15,7 @@ API_HASH = getenv("API_HASH", "e8bbafbec8541225f8e2c5a94af3d040")
 BOT_TOKEN = getenv("BOT_TOKEN", "8167880529:AAH_ieaW8WLOaDID6ClRNK1pZfb3slBCRTI")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://GunayMusicBot:GunayMusicBot@gunaymusicbot.uk74g.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://TitanicMusicBot:TitanicMusicBot@titanicmusicbot.dcmprii.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 180))
 
 # Chat id of a group for logging bot's activities
@@ -36,7 +36,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SohbetFc")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ForzaBoots/")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ForzaBoots")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", None))
