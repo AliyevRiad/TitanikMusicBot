@@ -12,14 +12,14 @@ API_ID = int(getenv("API_ID", "22457156"))
 API_HASH = getenv("API_HASH", "6787a66c5c7d4018a01fe4d5d7249992")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "8059284115:AAGU1st9p5BUXxi-DPIEta5sn3sKvATGNtE")
+BOT_TOKEN = getenv("BOT_TOKEN", "8167880529:AAGY_tyXhmqjEXX78rqwtbMhh4iJDKOZm74")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://GunayMusicBot:GunayMusicBot@gunaymusicbot.uk74g.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 180))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002442606881"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002612725288"))
 
 # Get this value from @MissRose_Bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", "7925819123"))
@@ -58,7 +58,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 104857600))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = getenv("STRING_SESSION", "AgE6r1EAe39XuDcWMgwgYPXjt9SEVD4BBcD407xPGDQJLw5LpqUUurn5G3FR7_CN4ysjygfiXFjKBYPtHbutxYk4Id_FoWsA9U2bFW7dEBj4i6yEs5lU29O9Ddi6A1d3l5dOTewcI_GAg-HBlji6F92nh6YhdW4r7c4HH1FLZw1pFf2fa9X-FxH652MuM9KsSnSIqE1ws57ivbfGHxEJtwltGDt2tukdj7QAWBdMFvYvQMdVvaDqyGFbewVm_qPtM9l3JbnDbMrJdndpBQUPZWn9krdVwuszSwiAvh6MilZOqRy8Kcv3KC004BQytHfIoxjq9DuwQ58Sk28t-nU0yfI7O5zYvAAAAAHm8E4uAA")
+STRING1 = getenv("STRING_SESSION", "AgFzrBMADvDvFe7QrWggr98l4P6wlzEX5U-Fv44b_XW3f0FCZ87KswdPL8vUZ7PNy_bXToOkgwnLGt3tzQFUf0vpmz54K7ho0lkZgumT52XHH_V2hafc2_kgqHIiFr7E3p76sCjo2u4mrSeOtlKug0eAD64vs1Dy0BkU2vF7ASaIx2-NjtkOMFl8zh4v4jOtKTFhrsMIyB3VIkgyUG3MUf3sDx7y8YRkuPLbc0Pa0EO2xqJUm_ncvKh7zlX-xa737VmFLIhqYzCsqmgVs2-Yj3aj07q7cUvN_PqCqz9Few-EchkPT059DrmpIjuFoWuL_M9NziGx5UPB5zoFjSeCXynMRd2W8gAAAAHknDWPAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
