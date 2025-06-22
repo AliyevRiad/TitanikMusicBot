@@ -12,7 +12,7 @@ API_ID = int(getenv("API_ID", "24357907"))
 API_HASH = getenv("API_HASH", "e8bbafbec8541225f8e2c5a94af3d040")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7776053082:AAEMCHYTi6o_XXOtzxDLevjt5yU5N5yLlNQ")
+BOT_TOKEN = getenv("BOT_TOKEN", "7802373663:AAG3f0kJ5cAIAebTNCAJgM42disBKDtt45s")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://TitanicMusicBot:TitanicMusicBot@titanicmusicbot.dcmprii.mongodb.net/?retryWrites=true&w=majority")
