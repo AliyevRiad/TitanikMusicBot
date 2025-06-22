@@ -36,7 +36,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SohbetFc")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ForzaBoots")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/PasterAzebots")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", None))
