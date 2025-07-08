@@ -19,10 +19,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://TEAMBABY01:UTTAMRATHORE09@c
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 180))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002442606881"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002606202136"))
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7925819123"))
+OWNER_ID = int(getenv("OWNER_ID", "8085531180"))
 
 # Fill Queue Limit . Example - 15
 QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", "20"))
@@ -35,7 +35,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SohbetFc")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/RoBotIar")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/PasterAzebots")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
