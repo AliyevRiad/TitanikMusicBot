@@ -74,7 +74,7 @@ confirmer = {}
 
 
 START_IMG_URL = ["https://telegra.ph/file/e91e886dd50ffdae88c99.jpg
-PING_IMG_URL = ["https://telegra.ph/file/e91e886dd50ffdae88c99.jpg
+PING_IMG_URL = ["https://telegra.ph/file/e91e886dd50ffdae88c99.jpg"
 STATS_IMG_URL = ["https://telegra.ph/file/e91e886dd50ffdae88c99.jpg
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL", "https://telegra.ph/file/e91e886dd50ffdae88c99.jpg
