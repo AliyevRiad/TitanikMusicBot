@@ -19,10 +19,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://TitanicMusicBot:TitanicMusi
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 180))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002537099274"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002442606881"))
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "8132892883"))
+OWNER_ID = int(getenv("OWNER_ID", "7925819123"))
 
 # Fill Queue Limit . Example - 15
 QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", "20"))
@@ -73,9 +73,9 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = ["https://telegra.ph/file/e91e886dd50ffdae88c99.jpg"
-PING_IMG_URL = ["https://telegra.ph/file/e91e886dd50ffdae88c99.jpg"
-STATS_IMG_URL = ["https://telegra.ph/file/e91e886dd50ffdae88c99.jpg"
+START_IMG_URL = "https://telegra.ph/file/e91e886dd50ffdae88c99.jpg"
+PING_IMG_URL = "https://telegra.ph/file/e91e886dd50ffdae88c99.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/e91e886dd50ffdae88c99.jpg"
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL", "https://telegra.ph/file/e91e886dd50ffdae88c99.jpg"
 )
